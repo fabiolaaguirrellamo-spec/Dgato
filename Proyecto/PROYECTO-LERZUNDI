@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PSeInt — Información General</title>
+  <style>
+    body{
+      font-family:'Segoe UI', Tahoma, sans-serif;
+      margin:0;
+      background-color:#dce7f5; /* Beige claro */
+      color:#111;
+    }
+    header{
+      background:#d8b4fe;
+      padding:28px 24px;
+      color:blueviolet;
+      text-align:center;
+    }
+    h1{
+      margin:0 0 6px;
+      font-size:32px;
+      text-shadow:1px 1px 3px rgba(0,0,0,0.3)
+    }
+    p.lead{
+      margin:0 0 18px;
+      font-size:18px
+    }
+    .container{
+      max-width:980px;
+      margin:24px auto;
+      padding:0 18px
+    }
+    h2{color:#ff6b6b}
+    ul{padding-left:22px}
+    .video{
+      position:relative;
+      padding-top:56.25%;
+      margin-top:14px;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 4px 16px rgba(0,0,0,0.3)
+    }
+    
+    .btn:hover{background:#fca7e2f1}
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="E:\Proyecto-Lerzundi\Video- Imagenes\3908f4d41477d99a35862b10c3398c0c.gif" width ="200">
+    </div>
+    <h1>PSeInt — Información General</h1>
+    <marquee direction="left" scrollamount="9"> PARA SER UN MEJOR PROFESIONAL, Un recurso educativo para aprender algoritmos de forma simple.</marquee>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>¿Qué es PSeInt?</h2>
+      <p><strong>PSeInt</strong> es una herramienta educativa que permite escribir algoritmos en pseudocódigo en español. Se utiliza para enseñar la lógica de programación de una manera sencilla y práctica.</p>
+    </section>
+    <img src="E:\Proyecto-Lerzundi\Video- Imagenes\pseint.webp" width ="300">
+    <section>
+      <h2>Características</h2>
+      <ul>
+        <li>Permite escribir algoritmos en pseudocódigo.</li>
+        <li>Incluye un editor con sugerencias y resultados.</li>
+        <li>Ofrece un entorno para ejecutar y probar algoritmos.</li>
+        <li>Genera diagramas de flujo automáticamente.</li>
+        <li>Es gratuito y de código abierto.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Ventajas</h2>
+      <ul>
+        <li>Fácil de usar para principiantes.</li>
+        <li>Disponible en español.</li>
+        <li>No requiere conocimientos previos de programación.</li>
+        <li>Ayuda a comprender la lógica antes de aprender un lenguaje real.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Desventajas</h2>
+      <ul>
+        <li>No es un lenguaje de programación real.</li>
+        <li>Está limitado a la enseñanza básica de algoritmos.</li>
+        <li>No se utiliza en entornos profesionales.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Video: Cómo aprender PSeInt</h2>
+      <p>Video: Casos de falta de seguridad informática</p>
+      <video width="400" height="250" controls>
+        <source src="E:\Proyecto-Lerzundi\Video- Imagenes\PseInt.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </section>
+
+    <section>
+      <h2>Más información</h2>
+      <p>Visita la página oficial para descargar PSeInt o leer más detalles:</p>
+      <p><a href="http://pseint.sourceforge.net/" target="_blank" class="btn">Página oficial de PSeInt</a></p>
+    </section>
+    <img src="E:\Proyecto-Lerzundi\Video- Imagenes\1595418746190_1.avif" width ="300">
+  </main>
+</body>
+</html>
